@@ -69,6 +69,7 @@ Qt0 = /Q0*/Q1 + Q1*/Q0
 
 The symbols of the corresponding transition control interfaces and output states were created to complete interface for light control.
 The interface's memory was implemented on D triggers.
+
 ![image](https://user-images.githubusercontent.com/76002002/215768555-2077a878-82ca-48a9-aebd-cb14f5146975.png)
 
 
