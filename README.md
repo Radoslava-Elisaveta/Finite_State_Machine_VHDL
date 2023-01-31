@@ -67,6 +67,11 @@ Qt2 = /M*Q2*/Q1+M*/Q2*/Q1*/Q0+M*Q2*Q0+/M*/Q2*Q1*Q0+Q2*Q1*/Q0
 Qt1 = M*/Q1*/Q0+/M*/Q1*Q0+M*Q1*Q0+/M*Q1*/Q0
 Qt0 = /Q0*/Q1 + Q1*/Q0
 
+The symbols of the corresponding transition control interfaces and output states were created to complete interface for light control.
+The interface's memory was implemented on D triggers.
+![image](https://user-images.githubusercontent.com/76002002/215768555-2077a878-82ca-48a9-aebd-cb14f5146975.png)
+
+
 To create the main frequency divider, two 16-bit counters with asynchronous reset were used. Also, a 2-digit counter was additionally used to create a signal controlling the speed of the machine (SPEED).
 When SPEED = 0, the signal "1" is applied to the control input of the 2-bit counter through the logic gate AND, the counter starts its work, the TC transfer output is a logical unit, and the frequency division continues through the OR logic element.
 When SPEED = 1, the signal "0" is applied to the control input of the 2-bit counter through the logic gate AND, the 2-bit counter does not work, the synchro pulse signal from the CLOCK input is applied to the sync pulse input C of the 16-bit counter through the logic gate AND. Thus, the dividing factor of the input frequency is reduced by 2, and the speed of the automaton is doubled.
