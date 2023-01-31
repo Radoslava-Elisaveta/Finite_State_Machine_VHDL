@@ -19,7 +19,7 @@ If SPEED = 0, the machine works at the default speed
 
 If SPEED = 1, the machine works at a speed TWICE HIGHER than in the mode
 
-For a more optimal description of the logic interface, a table (table 1) of all input values and possible changes of the MODE control signal was created
+For a more optimal description of the logic interface, a table (table 1) of all input values and possible changes of the MODE control signal was created.
 M denotes the MODE signal, Q0-Q2 – initial states, Qt1-Qt2 – subsequent states, we will describe these functions
 
 tabel 1
